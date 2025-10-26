@@ -1,0 +1,22 @@
+body::before {
+  content: "";
+  display: block;
+  height: 48px;
+  background: #111;
+  color: #fff;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 9999;
+}
+
+.proxy-badge {
+  position: fixed;
+  right: 12px;
+  top: 8px;
+  z-index: 10000;
+  padding: 6px 8px;
+  background: #fff;
+  border-radius: 6px;
+}
